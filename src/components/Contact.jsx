@@ -67,8 +67,8 @@ const Contact = () => {
           <button className="bg-tertiary py-3 px-8 outline-none w-fit font-bold rounded-xl text-white shadow-md shadow-primary" type="submit">{loading ? "sending...." : "Send"}</button>
         </form>
       </motion.div>
-      <motion.div>
-        
+      <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] ">
+   
       </motion.div>
     </div>
   );
