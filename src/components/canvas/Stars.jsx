@@ -4,7 +4,19 @@ import React, { Suspense, useRef, useState } from "react";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = (props) => {
-  return <div>Stars</div>;
+  const ref = useRef();
+  const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 });
+  return (
+    <group>
+      <points
+        ref={ref}
+        positions={sphere}
+        stride={3}
+        frustumCulled
+        {...props}
+      />
+    </group>
+  );
 };
 const StarCanvas = () => {
   return (
@@ -13,6 +25,7 @@ const StarCanvas = () => {
         <Suspense fallback={null}>
           <stars />
         </Suspense>
+        <Preload all />
       </Canvas>
     </div>
   );
