@@ -21,18 +21,35 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send(
-      "service_lsp66de",
-      "template_g6j9i4h",
-      {
-        from_name: form.name,
-        to_name: "Rabia",
-        from_email: form.email,
-        to_email: "rabirana501@gmail.com",
-        message: form.message,
-      },
-      "HotiVhnuAI3pcx5nD"
-    );
+    emailjs
+      .send(
+        "service_lsp66de",
+        "template_3oduccc",
+        {
+          from_name: form.name,
+          to_name: "Rabia",
+          from_email: form.email,
+          to_email: "rabirana501@gmail.com",
+          message: form.message,
+        },
+        "HotiVhnuAI3pcx5nD"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank You,I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("something went wrong");
+        }
+      );
   };
   return (
     <div
