@@ -8,13 +8,15 @@ const Stars = (props) => {
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 });
   return (
     <group>
-      <points
-        ref={ref}
-        positions={sphere}
-        stride={3}
-        frustumCulled
-        {...props}
-      />
+      <points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
+        <PointMaterial
+          transparent
+          color="#f272c8"
+          size={0.002}
+          sizeAttenuation={true}
+          depthWrite={false}
+        />
+      </points>
     </group>
   );
 };
