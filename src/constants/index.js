@@ -11,12 +11,12 @@ import {
   tailwind,
   git,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  sargodhaUni,
+  NUML ,
+  freelancing,
+  evogym,
+  tic_tac_toe,
+  cara,
   threejs,
 } from "../assets";
 
@@ -95,7 +95,7 @@ const experiences = [
   {
     title: " BSc Computer Science (2 years)",
     company_name: " Sargodha University",
-    icon: starbucks,
+    icon: sargodhaUni,
     iconBg: "#383E56",
     date: "Sept 2016 - Aug 2018",
     points: [
@@ -108,7 +108,7 @@ const experiences = [
   {
     title: " MSc Computer Science (2 years)",
     company_name: " NUML Islamabad",
-    icon: tesla,
+    icon: NUML,
     iconBg: "#E6DEDD",
     date: "Feb 2019 - Jan 2022",
     points: [
@@ -120,8 +120,8 @@ const experiences = [
   },
   {
     title: "Freelancing",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "freelancing",
+    icon: freelancing,
     iconBg: "#383E56",
     date: "Feb 2022 - March 2023",
     points: [
@@ -149,7 +149,7 @@ const projects = [
   {
     name: " EVO GYM",
     description:
-      "Evo Gym is a personal project I developed, showcasing gym details and available courses for users to explore. Additionally, it features a user-friendly contact page for easy communication.",
+     'Evo Gym is a personal project I developed, showcasing gym details and available courses for users to explore. Additionally, it features a user-friendly contact page for easy communication.' ,
     tags: [
       {
         name: "react",
@@ -164,7 +164,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: evogym,
     source_code_link: "https://github.com/",
   },
   {
@@ -185,7 +185,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tic_tac_toe,
     source_code_link: "https://github.com/",
   },
   {
@@ -206,7 +206,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: cara,
     source_code_link: "https://github.com/",
   },
 ];
