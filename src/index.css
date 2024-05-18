@@ -206,4 +206,7 @@
   .flex-wrap > div {
     margin-right: 0 !important;
   }
+  .absolute {
+    bottom: 10px;
+  }
 }
