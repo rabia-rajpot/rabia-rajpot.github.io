@@ -10,7 +10,7 @@ import {
   reactjs,
   tailwind,
   git,
-  meta,
+  udemy,
   sargodhaUni,
   NUML ,
   freelancing,
@@ -130,21 +130,23 @@ const experiences = [
     date: "Feb 2022 - March 2023",
     points: [
       "Engaging in freelancing exposed me to a variety of projects, each presenting unique challenges, which honed my problem-solving abilities.",
-      " Interacting directly with clients cultivated my communication and collaboration skills, as I translated their visions into functional and captivating frontend designs.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "  Tackled diverse project challenges, enhancing problem-solving abilities",
+      " Translated project requirements into functional and attractive designs",
+      
+     
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "React with TypeScript",
+    company_name: "Udemy",
+    icon: udemy,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built dynamic web applications using components, hooks, and state management.",
+      "Developed real-world applications to solidify React and TypeScript expertise",
+      " Utilized context API, custom hooks, and React Router for optimized performance.",
+      "Enhanced code quality with TypeScript's type-checking and interfaces",
     ],
   },
 ];
