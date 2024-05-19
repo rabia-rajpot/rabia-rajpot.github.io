@@ -14,7 +14,7 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import meta from "./company/meta.png";
+import udemy from "./company/udemy.png";
 import freelancing from "./company/freelancing.png";
 import sargodhaUni from "./company/sargodhaUni.png";
 import NUML from "./company/NUML.png";
@@ -39,7 +39,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  udemy,
   freelancing,
   sargodhaUni,
   NUML,
