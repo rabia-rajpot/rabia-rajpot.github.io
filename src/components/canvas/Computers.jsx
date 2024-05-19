@@ -1,12 +1,24 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect, useState, useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
+
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computerRef = useRef();
+  const oscillationSpeed = 0.21;
+  const maxRotationAngle = 0.6; // Adjust this to control the maximum rotation angle
+
+  useFrame((state) => {
+    const elapsedTime = state.clock.getElapsedTime();
+    if (computerRef.current) {
+      computerRef.current.rotation.y = maxRotationAngle * Math.sin(elapsedTime * oscillationSpeed);
+    }
+  });
+
   return (
-    <mesh>
-      <hemisphereLight intensity={3} groundColor="black" />
+    <mesh ref={computerRef}>
+      <hemisphereLight intensity={2.05} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -25,6 +37,7 @@ const Computers = ({ isMobile }) => {
     </mesh>
   );
 };
+
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -51,7 +64,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
