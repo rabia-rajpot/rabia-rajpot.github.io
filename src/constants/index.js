@@ -12,7 +12,7 @@ import {
   git,
   udemy,
   sargodhaUni,
-  NUML ,
+  NUML,
   freelancing,
   evogym,
   tic_tac_toe,
@@ -132,8 +132,6 @@ const experiences = [
       "Engaging in freelancing exposed me to a variety of projects, each presenting unique challenges, which honed my problem-solving abilities.",
       "  Tackled diverse project challenges, enhancing problem-solving abilities",
       " Translated project requirements into functional and attractive designs",
-      
-     
     ],
   },
   {
@@ -155,7 +153,7 @@ const projects = [
   {
     name: " EVO GYM",
     description:
-     'Evo Gym is a personal project I developed, showcasing gym details and available courses for users to explore. Additionally, it features a user-friendly contact page for easy communication.' ,
+      "Evo Gym is a personal project I developed, showcasing gym details and available courses for users to explore. Additionally, it features a user-friendly contact page for easy communication.",
     tags: [
       {
         name: "react",
@@ -172,6 +170,7 @@ const projects = [
     ],
     image: evogym,
     source_code_link: "https://github.com/Rabia-Rajput/Gym-typeScript.git",
+    link: "https://6da5328a.gym-typescript-1aw.pages.dev/",
   },
   {
     name: "Tic-Tac-Toe Game",
@@ -193,6 +192,7 @@ const projects = [
     ],
     image: tic_tac_toe,
     source_code_link: "https://github.com/Rabia-Rajput/tic-tac-toe.git",
+    link: "https://rabia-rajput.github.io/tic-tac-toe/",
   },
   {
     name: "Cara Online Store",
@@ -214,6 +214,7 @@ const projects = [
     ],
     image: cara,
     source_code_link: "https://github.com/Rabia-Rajput/ecommerce-website.git",
+    link: "https://rabia-rajput.github.io/ecommerce-website/",
   },
 ];
 
