@@ -50,7 +50,7 @@ const About = () => {
         I'm a frontend developer with a degree in computer science. I'm skilled
         in React and TypeScript, with experience from some freelancing and
         personal projects. Though I'm new to the professional scene, I'm eager
-        to join teams, learn, and contribute to web development projects.!
+        to join teams, learn, and contribute to web development projects.
       </motion.p>
       <div className="mt-0 flex flex-wrap gap-10">
         {services.map((service, index) => (
