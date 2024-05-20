@@ -103,10 +103,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sept 2016 - Aug 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a 2-year Bachelor of Science in Computer Science.",
+      "Gained proficiency in programming languages such as Java, C++, and Python.",
+      "Developed strong problem-solving skills through coursework in algorithms and data structures.",
+      "Conducted academic projects in software development and database management.",
     ],
   },
   {
@@ -116,10 +116,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2019 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Earned a 2-year Master of Science in Computer Science.",
+      "Advanced knowledge in areas such as machine learning, data analysis, and artificial intelligence.",
+      "Developed and implemented complex software solutions through hands-on coursework and projects.",
+      "Demonstrated proficiency in analyzing complex data sets and implementing solutions using various algorithms and tools.",
     ],
   },
   {
