@@ -7,7 +7,7 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   const computerRef = useRef();
   const oscillationSpeed = 0.21;
-  const maxRotationAngle = 0.6; // Adjust this to control the maximum rotation angle
+  const maxRotationAngle = 0.6;
 
   useFrame((state) => {
     const elapsedTime = state.clock.getElapsedTime();
