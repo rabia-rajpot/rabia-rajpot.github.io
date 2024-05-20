@@ -97,7 +97,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: " BSc Computer Science (2 years)",
+    title: " BSc Computer Science",
     company_name: " Sargodha University",
     icon: sargodhaUni,
     iconBg: "#383E56",
@@ -110,7 +110,7 @@ const experiences = [
     ],
   },
   {
-    title: " MSc Computer Science (2 years)",
+    title: " MSc Computer Science",
     company_name: " NUML Islamabad",
     icon: NUML,
     iconBg: "#E6DEDD",
@@ -138,10 +138,10 @@ const experiences = [
   },
   {
     title: "React with TypeScript",
-    company_name: "Udemy",
+    company_name: "Online courses & Personal Projects",
     icon: udemy,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "May 2023 - Present",
     points: [
       "Built dynamic web applications using components, hooks, and state management.",
       "Developed real-world applications to solidify React and TypeScript expertise",
@@ -171,7 +171,7 @@ const projects = [
       },
     ],
     image: evogym,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rabia-Rajput/Gym-typeScript.git",
   },
   {
     name: "Tic-Tac-Toe Game",
@@ -192,12 +192,12 @@ const projects = [
       },
     ],
     image: tic_tac_toe,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rabia-Rajput/tic-tac-toe.git",
   },
   {
     name: "Cara Online Store",
     description:
-      "Cara is my personal project, an online clothing store boasting essential pages found in typical ecommerce setups. Users can delve into product details, learn about us, and seamlessly connect via the contact page",
+      "Cara is my personal project, an online clothing store boasting essential pages found in typical ecommerce setups. Users can delve into product details, learn about us, and connect via the contact page.",
     tags: [
       {
         name: "njavascript",
@@ -213,7 +213,7 @@ const projects = [
       },
     ],
     image: cara,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rabia-Rajput/ecommerce-website.git",
   },
 ];
 
