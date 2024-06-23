@@ -170,7 +170,7 @@ const projects = [
     ],
     image: evogym,
     source_code_link: "https://github.com/Rabia-Rajput/Gym-typeScript.git",
-    link: "https://6da5328a.gym-typescript-1aw.pages.dev/",
+    link: "https://rabia-rajput.github.io/evo-gym/",
   },
   {
     name: "Tic-Tac-Toe Game",
