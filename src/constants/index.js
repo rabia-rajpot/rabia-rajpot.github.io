@@ -200,7 +200,7 @@ const projects = [
       "Cara is my personal project, an online clothing store boasting essential pages found in typical ecommerce setups. Users can delve into product details, learn about us, and connect via the contact page.",
     tags: [
       {
-        name: "njavascript",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
