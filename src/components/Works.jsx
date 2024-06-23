@@ -6,7 +6,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const ProjectCard = ({
   index,
@@ -33,18 +33,6 @@ const ProjectCard = ({
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-image_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -60,11 +48,28 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <a
+            className="flex justify-end gap-20 items-center"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-tertiary py-3 px-8 outline-none w-fit font-bold rounded-xl text-white shadow-md shadow-primary flex items-center gap-2">
               Live Demo
               <i className="fas fa-external-link-alt"></i>
             </button>
+            <div className="flex justify-end card-image_hover">
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            </div>
           </a>
         </div>
       </Tilt>
