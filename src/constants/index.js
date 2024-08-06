@@ -170,7 +170,7 @@ const projects = [
     ],
     image: evogym,
     source_code_link: "https://github.com/Rabia-Rajput/Gym-typeScript.git",
-    link: "https://rabia-rajput.github.io/evo-gym/",
+    link: "https://rabia-web.github.io/evo-gym/",
   },
   {
     name: "Tic-Tac-Toe Game",
@@ -192,7 +192,7 @@ const projects = [
     ],
     image: tic_tac_toe,
     source_code_link: "https://github.com/Rabia-Rajput/tic-tac-toe.git",
-    link: "https://rabia-rajput.github.io/tic-tac-toe/",
+    link: "https://rabia-web.github.io/tic-tac-toe/",
   },
   {
     name: "Cara Online Store",
@@ -214,7 +214,7 @@ const projects = [
     ],
     image: cara,
     source_code_link: "https://github.com/Rabia-Rajput/ecommerce-website.git",
-    link: "https://rabia-rajput.github.io/ecommerce-website/",
+    link: "https://rabia-web.github.io/ecommerce-website/",
   },
 ];
 
