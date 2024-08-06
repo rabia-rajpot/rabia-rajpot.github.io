@@ -169,7 +169,7 @@ const projects = [
       },
     ],
     image: evogym,
-    source_code_link: "https://github.com/Rabia-Rajput/Gym-typeScript.git",
+    source_code_link: "https://github.com/rabia-web/evo-gym",
     link: "https://rabia-web.github.io/evo-gym/",
   },
   {
@@ -191,7 +191,7 @@ const projects = [
       },
     ],
     image: tic_tac_toe,
-    source_code_link: "https://github.com/Rabia-Rajput/tic-tac-toe.git",
+    source_code_link: "https://github.com/rabia-web/tic-tac-toe",
     link: "https://rabia-web.github.io/tic-tac-toe/",
   },
   {
@@ -213,7 +213,7 @@ const projects = [
       },
     ],
     image: cara,
-    source_code_link: "https://github.com/Rabia-Rajput/ecommerce-website.git",
+    source_code_link: "https://github.com/rabia-web/ecommerce-website",
     link: "https://rabia-web.github.io/ecommerce-website/",
   },
 ];
