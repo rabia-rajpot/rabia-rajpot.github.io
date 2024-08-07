@@ -169,8 +169,8 @@ const projects = [
       },
     ],
     image: evogym,
-    source_code_link: "https://github.com/rabia-rajpotweb/evo-gym",
-    link: "rabia-rajpot.github.io/evo-gym/",
+    source_code_link: "https://github.com/rabia-rajpot/evo-gym",
+    link: "https://rabia-rajpot.github.io/evo-gym/",
   },
   {
     name: "Tic-Tac-Toe Game",
@@ -192,7 +192,7 @@ const projects = [
     ],
     image: tic_tac_toe,
     source_code_link: "https://github.com/rabia-rajpot/tic-tac-toe",
-    link: "rabia-rajpot.github.io/tic-tac-toe/",
+    link: "https://rabia-rajpot.github.io/tic-tac-toe/",
   },
   {
     name: "Cara Online Store",
