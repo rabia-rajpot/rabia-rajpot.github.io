@@ -23,7 +23,7 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        "service_lsp66de",
+        "service_6xfs2rl",
         "template_3oduccc",
         {
           from_name: form.name,
